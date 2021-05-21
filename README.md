@@ -13,7 +13,7 @@ O desafio seria criar uma página responsiva para á exibição de produtos de u
 -  Arquivo contendo o texto e as cores que foram utilizadas
 
 
-###Resultado do Desafio
+### Resultado do Desafio
 
 ![img](https://github.com/Lucas-Machado-Alves/Desafio_DevChalleng-2/blob/master/img/Captura%20de%20tela%202021-05-20%20211330.png?raw=true "img")
 
