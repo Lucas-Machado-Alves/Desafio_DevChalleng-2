@@ -1,0 +1,418 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Lato', sans-serif; 
+    
+}
+
+body{
+
+    max-width: 1250px;
+    min-width: 515px;
+    margin:0 auto;
+}
+
+.munu-superior{
+
+    display: flex;
+    justify-content: space-between;
+    padding: 8px; 
+    
+}
+
+.munu-superior a{
+    
+    text-decoration: none;
+    font-size:25px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.img-banner img{
+
+    width: 100%;
+}
+
+.logo-store{
+    margin: 10px 40px;
+
+}
+
+.logo-store .fa{
+    font-size:30px
+}
+
+.fa{
+    font-size:25px
+}
+
+.nev-site{
+    margin: 10px 40px;
+}
+
+.nev-site a{
+    margin:10px ;
+    color: #5CA720 ;
+}
+
+
+.BarraPromocao{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin: 15px 40px;
+
+}
+
+
+.Product{
+    justify-content:space-between;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: solid 1px #A5A1A1 ;
+}
+
+.img-product{
+    
+    text-align:left;
+    margin: 40px;
+    
+}
+
+.img-product img{
+    margin: 10px;
+    width: 260px; 
+    height: 250px;
+    
+}
+
+.img-product p{
+    font-size: 20px;
+    margin: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+.img-product p a {
+
+    text-decoration: none;
+    color: #5CA720;
+}
+
+/*----======roda-pé======----*/
+
+footer{
+   display: flex;
+   flex-direction: column; 
+   background:#f9f9f9ed ;
+   padding: auto;
+   
+}
+
+.conteinerFooter{
+
+    align-content: center;
+    display: flex;
+    border-top: solid 1px #A5A1A1 ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom:25px;
+    
+    
+}
+
+.Contact{
+
+    justify-content: center;
+    font-size: 17px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    margin: 15px 10px 15px 40px;
+    
+}
+
+.Contact p {
+    margin-top: 5px 
+}
+
+.Newsletter{
+
+    text-align: left;
+    font-size: 17px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+    margin: 15px 40px 15px 10px;
+    
+}
+
+
+.Newsletter input{
+
+    width: 350px;
+    height: 50px;
+    margin-top: 20px;
+    font-size:15px;
+    border: transparent ;
+    border-radius:5px 0px 0px 5px;
+
+}
+
+.Newsletter button {
+    margin-right: 0;
+    border: none;
+    width: 90px;
+    height: 50px;
+    background-color:#5CA720 ;
+    border-radius:0px 5px 5px 0px;
+    
+}
+.Newsletter button:hover{
+    
+    background:#70c32c ;
+
+}
+
+.RodapeInferior{
+
+    border-top: solid 1px #A5A1A1 ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;  
+
+}
+.redesSociais{
+    margin: 10px 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.redesSociais a {
+    align-items: center;
+    margin-left: 15px;
+    color: #70c32c;
+}
+.FormasPagamento{
+    margin: 10px 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+.FormasPagamento img{
+    height: 50px;
+    width: 130px;
+}
+
+
+@media screen and (max-width: 360px) {
+    
+    body{
+        
+        min-width: 360px;
+        margin:0 auto; 
+    }
+
+    .munu-superior{
+
+        display: flex;
+        justify-content: space-between;
+        padding: 4px;
+    
+    }
+
+    .munu-superior a{
+        
+        text-decoration: none;
+        font-size:15px;
+        font-weight: 900;
+        font-family: 'Lato', sans-serif;
+        
+    }
+
+    .img-banner img{
+
+        width: 100%;
+        margin: auto; /*REVER*/
+    }
+
+    .logo-store{
+        margin: 5px 15px;
+
+    }
+    /*icon of logo*/
+    .logo-store .fa{
+        font-size:20px
+    }
+    
+    /* tamanho dos icones de navegação*/
+    .fa{
+        font-size:15px
+    }
+
+    .nev-site{
+        margin: 10px 15px;
+    }
+
+    .nev-site a{
+        margin:10px ;
+        color: #5CA720 ;
+    }
+
+
+    .BarraPromocao{
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-between;
+        margin: 7px 15px;
+
+    }
+
+    .BarraPromocao h3,p{
+
+        font-size:12px 
+    }
+
+    .Product{
+        justify-content:space-around;
+        display: flex;
+        flex-wrap: wrap;
+        border-top: solid 1px #A5A1A1 ;
+        margin-bottom: 10px; /*-------------*/
+    }
+
+    .img-product{
+        
+        text-align:left;
+        margin: 8px;
+        
+    }
+
+    .img-product img{
+
+        margin: 10px; /*REVER*/
+        width: 90px;
+        height: 90px;
+        
+    }
+
+    .img-product p{
+        font-size: 10px;
+        margin: 10px; /*REVER*/
+        font-family: 'Lato', sans-serif;
+    }
+
+    .img-product p a {
+
+        text-decoration: none;
+        color: #5CA720;
+    }
+
+    /*----======roda-pé======----*/
+
+    footer{
+    display: flex;
+    flex-direction: column; 
+    background:#f9f9f9ed ;
+    
+    }
+
+    .conteinerFooter{
+
+        align-content: center;
+        display: flex;
+        border-top: solid 1px #A5A1A1 ;
+        flex-direction: column;
+        justify-content: space-around;
+        height: auto; 
+        margin: 0px;
+    }
+
+    .Contact{
+
+        justify-content: center;
+        font-size:12px;
+        font-weight: 900;
+        font-family: 'Lato', sans-serif;
+        margin: 5px 0px 35px 15px;
+        
+    }
+
+    .Newsletter{
+
+        align-items: center;
+        margin: 5px 3px 5px 15px;
+        font-size:20px;
+        font-weight: 900;
+        font-family: 'Lato', sans-serif;
+        margin-bottom: 25px;
+        
+    }
+
+    .Newsletter h4{
+
+        font-size:12px;
+        
+    }
+
+    .Newsletter input{
+
+        width: 300px;
+        height: 40px;
+        margin-right: 0;
+        font-size:15px;
+        border: transparent ;
+        border-radius: 5px;
+
+    }
+
+    .Newsletter button {
+
+        margin-top: 15px;
+        border: none;
+        width: 300px;
+        height: 40px;
+        background-color:#429002 ;
+        border-radius: 5px;
+        color: white;
+        
+    }
+
+    .Newsletter button:hover{
+        
+        background:#70c32c ;
+
+    }
+
+    .RodapeInferior{
+
+        border-top: solid 1px #A5A1A1 ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-between;  
+
+    }
+    .redesSociais{
+        margin: 10px 10px;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+
+    .redesSociais a {
+
+        margin-left: 15px;
+        color: #70c32c;
+      
+    }
+
+    .FormasPagamento{
+        margin: 10px 40px;
+    }
+
+    .FormasPagamento img{
+        height: 40px;
+        width: 110px;
+    }
+
+}    
